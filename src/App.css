@@ -32,7 +32,32 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+/* me adding */
+.helens {
+  height: 40%;
+  width: 40%;
+  border-radius: 50%;
+  border: 5px dotted black;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+h1,
+h2,
+h4,
+p {
+  text-align: center;
+}
+
+.links,
+form {
+  text-align: center;
 }
