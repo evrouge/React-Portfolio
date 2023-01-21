@@ -28,7 +28,7 @@ const App = () => {
   return (
     <>
       {/* Navbar */}
-      <Navbar bg="warning" expand="lg">
+      <Navbar bg="transparent" expand="lg">
         <Container fluid>
           <Navbar.Brand href="#">Home</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -46,7 +46,7 @@ const App = () => {
             </Nav>
           </Navbar.Collapse>
         </Container>
-      </Navbar>
+      </Navbar><br />
       <div>
         <h1>Evin Lerouge</h1>
         <h2>Software Engineer and Adventurer</h2><br />
@@ -60,19 +60,74 @@ const App = () => {
       {/* About section */}
 
       <div id="about">
-        <h4>About Me</h4>
-        <p>Hi! I'm Evin! </p>
+        <h4>About Me</h4><br />
+        <p class="aboutme">Hi! I'm Evin, nice to meet you! I am a software engineer with experience as a yoga teacher, childcare teacher, and a special education paraeducator! My previous experiences have provided me with leadership skills and a passion for creativity that I can't wait to bring to the field! I am always up for a challenge and continually seek them out, whether I am working or not.</p>
+        <p class="aboutme">In my free time I enjoy many hobbies that challenge me. I am a runner and am currently training for a half marathon and a marathon this year. I am an alpinist, and am training to climb Mount Rainier in Washington. I am a rock climber, and enjoy spending time at the gym in the winter and climbing outside all other seasons. I am also a painter and enjoy anything that involves crafting and creativity.</p>
+        <p class="aboutme">Below is a picture of me at the top of Mount Saint Helens in Washington.</p>
         <img class="helens" src="https://i.imgur.com/ihTy0QQ.jpg"></img>
         <hr />
-      </div>
-      <div id="skills">
-        <h4>Technical Skills</h4>
-        <p>kfa;divbadiuvb;safasdjvblasd
-          askdbv;ajsdbv;oajsdbv;akjsdbv;ak
-        </p>
-        <hr />
-      </div>
+      </div><br />
 
+      {/* Technical Skills */}
+
+      <div id="skills">
+        <h4>Technical Skills</h4><br />
+        <p class="aboutme">These are all of the technical skills that I have learned over the last year! I started out by learning Python with a book called Python Crash Course: A Hands On, Project-Based Introduction to Programming. I also found resources online such as Mosh Hamedani's courses, and free code camp. After practicing and finding out how much I loved the programming, I decided to join General Assembly's Software Engineer Immersive - Remote program. Here we dove into the fundamentals of computer science, and I also learned how to deploy websites that I have created.</p><br />
+        {/* <!--javascript icon--> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+          class="skill" />
+        {/* Java icon */}
+        <img class="skill" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
+        {/* <!--html icon--> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg"
+          class="skill" />
+        {/* <!--CSS icon--> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg"
+          class="skill" />
+        {/* <!--python icon--> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+          class="skill" />
+        {/* <!--react icon--> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+          class="skill" />
+        {/* <!--git icon--> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
+          class="skill" />
+        {/* <!--mongodb icon--> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg"
+          class="skill" />
+        {/* <!--visual studio code icon--> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-plain-wordmark.svg"
+          class="skill" />
+        {/* <!--Spring icon--> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-plain-wordmark.svg"
+          class="skill" />
+        {/* <!--ruby icon--> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-plain-wordmark.svg"
+          class="skill" />
+        {/* <!--jquery icon--> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jquery/jquery-original-wordmark.svg"
+          class="skill" />
+        {/* <!--github icon--> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg"
+          class="skill" />
+        {/* <!--django icon--> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg"
+          class="skill" />
+        {/* <!--express icon--> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+          class="skill" />
+        {/* <!--nodejs--> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+          class="skill" />
+        {/* <!--postgresql--> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg"
+          class="skill" />
+        {/* <!--mysql--> */}
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg"
+          class="skill" />
+      </div>
+      <br /><hr /><br />
       {/* Projects Section */}
 
       <div id="projects">

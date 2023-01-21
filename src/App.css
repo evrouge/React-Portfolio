@@ -104,3 +104,16 @@ hr {
   text-align: center;
   align-items: center;
 }
+
+.aboutme {
+  font-weight: bold !important;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.skill {
+  height: 15%;
+  width: 15%;
+  padding: 15px;
+  margin-left: 1rem;
+}
