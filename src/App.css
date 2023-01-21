@@ -95,3 +95,12 @@ h4 {
 .card img {
   border: 3px dashed black;
 }
+
+hr {
+  color: white !important;
+}
+
+#contact {
+  text-align: center;
+  align-items: center;
+}

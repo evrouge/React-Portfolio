@@ -178,15 +178,21 @@ const App = () => {
         <Button variant="primary" onClick={handleShow}>Fill out contact form</Button>
         <Modal show={show} onHide={handleClose} animation={false}>
           <Modal.Header closeButton>
-            <Modal.Title>Modal heading</Modal.Title>
+            <Modal.Title>Leave your contact information here:</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Woohoo, you're reading this text in a modal!</Modal.Body>
+          <Modal.Body>
+            <form>
+              <input type="text" placeholder='Name'></input><br /><br />
+              <input type="text" placeholder='Email'></input><br /><br />
+              <textarea cols="30" rows="5" placeholder='Message'></textarea>
+            </form>
+          </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
               Close
             </Button>
             <Button variant="primary" onClick={handleClose}>
-              Save Changes
+              Submit
             </Button>
           </Modal.Footer>
         </Modal>
