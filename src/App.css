@@ -114,6 +114,15 @@ hr {
 .skill {
   height: 15%;
   width: 15%;
-  padding: 15px;
-  margin-left: 1rem;
+  padding: 7px;
+  margin-left: 1.2rem;
+}
+
+.iframe {
+  text-align: center;
+}
+
+.project {
+  text-align: center;
+
 }

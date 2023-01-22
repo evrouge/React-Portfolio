@@ -63,7 +63,7 @@ const App = () => {
         <h4>About Me</h4><br />
         <p class="aboutme">Hi! I'm Evin, nice to meet you! I am a software engineer with experience as a yoga teacher, childcare teacher, and a special education paraeducator! My previous experiences have provided me with leadership skills and a passion for creativity that I can't wait to bring to the field! I am always up for a challenge and continually seek them out, whether I am working or not.</p>
         <p class="aboutme">In my free time I enjoy many hobbies that challenge me. I am a runner and am currently training for a half marathon and a marathon this year. I am an alpinist, and am training to climb Mount Rainier in Washington. I am a rock climber, and enjoy spending time at the gym in the winter and climbing outside all other seasons. I am also a painter and enjoy anything that involves crafting and creativity.</p>
-        <p class="aboutme">Below is a picture of me at the top of Mount Saint Helens in Washington.</p>
+        <p class="aboutme">Below is a picture of me at the top of Mount Saint Helens in Washington.</p><br />
         <img class="helens" src="https://i.imgur.com/ihTy0QQ.jpg"></img>
         <hr />
       </div><br />
@@ -144,8 +144,11 @@ const App = () => {
                 <li>I created this app to use for writing and posting about my outdoor activities</li>
               </ul>
             </Card.Text>
-            <Button variant="primary">Website</Button>
-            <Button variant="primary">See Code</Button>
+            <div className="project">
+              <Button href="https://lucky-sprite-9372ed.netlify.app" variant="primary">Website</Button>
+              <Button href="https://github.com/evrouge/outdoor-blog-frontend" variant="primary">Frontend Code</Button><br />
+              <Button href="https://github.com/evrouge/outdoor-blog-backend" variant="primary">Backend Code</Button>
+            </div>
           </Card.Body>
         </Card>
 
@@ -160,8 +163,10 @@ const App = () => {
                 <li>I created this because I was bored of keeping track of my hikes with an excel spreadsheet!</li>
               </ul>
             </Card.Text>
-            <Button variant="primary">Website</Button>
-            <Button variant="primary">See Code</Button>
+            <div className="project">
+              <Button href="https://safe-bastion-22148.herokuapp.com/hike" variant="primary">Website</Button>
+              <Button href="https://github.com/evrouge/hiker-app" variant="primary">See Code</Button>
+            </div>
           </Card.Body>
         </Card>
 
@@ -177,8 +182,11 @@ const App = () => {
                 <li>We created this app to allow users to create a profile and "swipe" through profiles like Tinder</li>
               </ul>
             </Card.Text>
-            <Button variant="primary">Website</Button>
-            <Button variant="primary">See Code</Button>
+            <div className="project">
+              <Button href="https://singular-druid-6c25ce.netlify.app/" variant="primary">Website</Button>
+              <Button href="https://github.com/evrouge/dating-app-frontend" variant="primary">Frontend Code</Button>
+              <Button href="https://github.com/evrouge/dating-app-backend" variant="primary">Backend Code</Button>
+            </div>
           </Card.Body>
         </Card>
 
@@ -194,8 +202,11 @@ const App = () => {
                 <li>We created this app to keep track of the books we have read</li>
               </ul>
             </Card.Text>
-            <Button variant="primary">Website</Button>
-            <Button variant="primary">See Code</Button>
+            <div className="project">
+              <Button href="https://papaya-mochi-57fe5a.netlify.app/" variant="primary">Website</Button>
+              <Button href="https://github.com/evrouge/Book-tracker-frontend" variant="primary">Frontend Code</Button>
+              <Button href="https://github.com/evrouge/outdoor-blog-backend" variant="primary">Backend Code</Button>
+            </div>
           </Card.Body>
         </Card>
 
@@ -211,25 +222,29 @@ const App = () => {
                 <li>I created this website to introduce myself and show my previous experience</li>
               </ul>
             </Card.Text>
-            <Button variant="primary">Website</Button>
-            <Button variant="primary">See Code</Button>
+            <div className="project">
+              <Button href="https://celadon-platypus-739458.netlify.app/" variant="primary">Website</Button>
+              <Button href="https://github.com/evrouge/Portfolio" variant="primary">See Code</Button>
+            </div>
           </Card.Body>
         </Card>
       </div>
-      <hr />
+      <hr /><br />
 
       {/* Resume Section */}
 
       <div id="resume">
-        <h4>Resume</h4>
-
+        <h4>My Resume</h4><br />
+        <div class="iframe">
+          <iframe src="https://drive.google.com/file/d/1AqaKrnWEzFzyJPXSkU0Iofz9DHTqLrXJ/preview" width="640" height="830" allow="autoplay"></iframe>
+        </div>
       </div>
-      <hr />
+      <hr /><br />
 
       {/* Contact Section */}
 
       <div id="contact">
-        <h4>Contact Me</h4>
+        <h4>Contact Me</h4><br />
         <Button variant="primary" onClick={handleShow}>Fill out contact form</Button>
         <Modal show={show} onHide={handleClose} animation={false}>
           <Modal.Header closeButton>
@@ -251,7 +266,7 @@ const App = () => {
             </Button>
           </Modal.Footer>
         </Modal>
-      </div>
+      </div><br /><br />
     </>
   )
 }
