@@ -62,8 +62,20 @@ form {
   text-align: center;
 }
 
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: darkgrey;
+}
+
+a:hover {
+  color: red;
+}
+
 body {
-  background: linear-gradient(to bottom right, yellow, blue) !important;
+  background: linear-gradient(to bottom right, yellow, orange) !important;
 }
 
 h1 {
@@ -124,5 +136,8 @@ hr {
 
 .project {
   text-align: center;
+}
 
+div {
+  overflow: hidden;
 }
