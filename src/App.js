@@ -1,5 +1,5 @@
 //======= Imports ===============
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
 // Bootstrap imports
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -15,6 +15,7 @@ const App = () => {
 
   //========= Hooks ==========================
   const [show, setShow] = useState(false);
+
 
   //============================================
   //Modal

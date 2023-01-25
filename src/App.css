@@ -141,3 +141,11 @@ hr {
 div {
   overflow: hidden;
 }
+
+/* media query for resume size on mobile */
+@media only screen and (max-width: 600px) {
+  iframe {
+    height: 100%;
+    width: 70%;
+  }
+}
