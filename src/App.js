@@ -138,7 +138,7 @@ const App = () => {
         <Card className="project5" style={{ width: '20rem', height: '30rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/ZNSW50l.png" />
           <Card.Body>
-            <Card.Title>Outdoor Blog - Solo Project</Card.Title>
+            <Card.Title className='title'>Outdoor Blog - Solo Project</Card.Title>
             <Card.Text>
               <ul>
                 <li class="projectt">Java, Spring, PostgreSQL, and React </li>
@@ -157,7 +157,7 @@ const App = () => {
         <Card className="project2" style={{ width: '20rem', height: '28rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/qItp7Rs.png" />
           <Card.Body>
-            <Card.Title>Hiker App - Solo Project</Card.Title>
+            <Card.Title className='title'>Hiker App - Solo Project</Card.Title>
             <Card.Text>
               <ul>
                 <li class="projectt">Express, Encrypted JavaScript, and CSS</li>
@@ -175,7 +175,7 @@ const App = () => {
         <Card className="project4" style={{ width: '20rem', height: '34rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/qMsU4IX.png" />
           <Card.Body>
-            <Card.Title>Dating App - Group Project</Card.Title>
+            <Card.Title className='title'>Dating App - Group Project</Card.Title>
             <Card.Text>
               <ul>
                 <li class="projectt">React, Django, Python, Bootstrap for React, and PostgreSQL</li>
@@ -195,7 +195,7 @@ const App = () => {
         <Card className="project3" style={{ width: '20rem', height: '33rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/GhjyM7B.png" />
           <Card.Body>
-            <Card.Title>MERN Book Tracker - Group Project</Card.Title>
+            <Card.Title className='title'>MERN Book Tracker - Group Project</Card.Title>
             <Card.Text>
               <ul>
                 <li class="projectt">React, Express, MongoDB, Node and Bootstrap for React</li>
@@ -215,7 +215,7 @@ const App = () => {
         <Card className="project1" style={{ width: '20rem', height: '26rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/yEB088r.png" />
           <Card.Body>
-            <Card.Title>Portfolio - My First Solo Project</Card.Title>
+            <Card.Title className='title'>Portfolio - My First Solo Project</Card.Title>
             <Card.Text>
               <ul>
                 <li class="projectt">HTML 5, CSS, and jQuery</li>

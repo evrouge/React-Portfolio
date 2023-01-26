@@ -148,5 +148,13 @@ div {
 }
 
 .projectt {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: bold;
+  word-spacing: .3em;
+  letter-spacing: .1em;
+  list-style-type: none;
+}
+
+.title {
+  text-decoration: underline;
 }
