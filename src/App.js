@@ -141,7 +141,7 @@ const App = () => {
             <Card.Title>Outdoor Blog - Solo Project</Card.Title>
             <Card.Text>
               <ul>
-                <li>Full Stack CRUD app using Java, Spring, PostgreSQL, and React </li>
+                <li class="projectt">Java, Spring, PostgreSQL, and React </li>
                 <li>I created this app to use for writing and posting about my outdoor activities</li>
               </ul>
             </Card.Text>
@@ -154,14 +154,14 @@ const App = () => {
         </Card>
 
         {/* Project 2 */}
-        <Card className="project2" style={{ width: '20rem', height: '33rem' }}>
+        <Card className="project2" style={{ width: '20rem', height: '28rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/qItp7Rs.png" />
           <Card.Body>
             <Card.Title>Hiker App - Solo Project</Card.Title>
             <Card.Text>
               <ul>
-                <li>I created this Full Stack CRUD app using Express, Encrypted JavaScript, and CSS</li>
-                <li>I created this because I was bored of keeping track of my hikes with an excel spreadsheet!</li>
+                <li class="projectt">Express, Encrypted JavaScript, and CSS</li>
+                <li>I had an idea to create this for my friends and I to use instead of an excel spreadsheet.</li>
               </ul>
             </Card.Text>
             <div className="project">
@@ -172,15 +172,15 @@ const App = () => {
         </Card>
 
         {/* Project 4 */}
-        <Card className="project4" style={{ width: '20rem', height: '33rem' }}>
+        <Card className="project4" style={{ width: '20rem', height: '34rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/qMsU4IX.png" />
           <Card.Body>
             <Card.Title>Dating App - Group Project</Card.Title>
             <Card.Text>
               <ul>
-                <li>We created a Full Stack app using React, Django, Python, Bootstrap for React, and PostgreSQL</li>
-                <li>In this app we added user authentication with Bcrypt</li>
+                <li class="projectt">React, Django, Python, Bootstrap for React, and PostgreSQL</li>
                 <li>We created this app to allow users to create a profile and "swipe" through profiles like Tinder</li>
+                <li>In this app we added user authentication with Bcrypt</li>
               </ul>
             </Card.Text>
             <div className="project">
@@ -195,12 +195,12 @@ const App = () => {
         <Card className="project3" style={{ width: '20rem', height: '33rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/GhjyM7B.png" />
           <Card.Body>
-            <Card.Title>Book Tracker (MERN) - Group Project</Card.Title>
+            <Card.Title>MERN Book Tracker - Group Project</Card.Title>
             <Card.Text>
               <ul>
-                <li>CRUD app using React, Express, MongoDB, and Node to create this app.</li>
-                <li>Once a book has been read, it moves to the bottom of the page</li>
+                <li class="projectt">React, Express, MongoDB, Node and Bootstrap for React</li>
                 <li>We created this app to keep track of the books we have read</li>
+                <li>Once a book has been read, it moves to the bottom of the page</li>
               </ul>
             </Card.Text>
             <div className="project">
@@ -212,14 +212,13 @@ const App = () => {
         </Card>
 
         {/* Project 1 */}
-        <Card className="project1" style={{ width: '20rem', height: '33rem' }}>
+        <Card className="project1" style={{ width: '20rem', height: '26rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/yEB088r.png" />
           <Card.Body>
-            <Card.Title>Portfolio - Solo Project</Card.Title>
+            <Card.Title>Portfolio - My First Solo Project</Card.Title>
             <Card.Text>
               <ul>
-                <li>This website was my first project</li>
-                <li>This interactive website was built using HTML 5, CSS, and JavaScript. There are three different jQuery interactions</li>
+                <li class="projectt">HTML 5, CSS, and jQuery</li>
                 <li>I created this website to introduce myself and show my previous experience</li>
               </ul>
             </Card.Text>
@@ -246,6 +245,8 @@ const App = () => {
 
       <div id="contact">
         <h4>Contact Me</h4><br />
+        <h4> * Work in progress * </h4><br />
+
         <Button variant="primary" onClick={handleShow}>Fill out contact form</Button>
         <Modal show={show} onHide={handleClose} animation={false}>
           <Modal.Header closeButton>

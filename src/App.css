@@ -66,16 +66,12 @@ a:link {
   color: black;
 }
 
-a:visited {
-  color: darkgrey;
-}
-
 a:hover {
   color: red;
 }
 
 body {
-  background: linear-gradient(to bottom right, yellow, orange) !important;
+  background: linear-gradient(to bottom right, yellow, darkorange) !important;
 }
 
 h1 {
@@ -97,6 +93,7 @@ h4 {
   margin-bottom: 3rem;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .card:hover {
@@ -109,7 +106,7 @@ h4 {
 }
 
 hr {
-  color: white !important;
+  color: red !important;
 }
 
 #contact {
@@ -148,4 +145,8 @@ div {
     height: 100%;
     width: 70%;
   }
+}
+
+.projectt {
+  font-weight: bold;
 }
