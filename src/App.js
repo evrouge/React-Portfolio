@@ -36,7 +36,7 @@ const App = () => {
           <Navbar.Collapse id="navbarScroll">
             <Nav
               className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: '100px' }}
+              style={{ maxHeight: '200px' }}
               navbarScroll
             >
               <Nav.Link href="#about">About</Nav.Link>
@@ -246,7 +246,6 @@ const App = () => {
       <div id="contact">
         <h4>Contact Me</h4><br />
         <h4> * Work in progress * </h4><br />
-
         <Button variant="primary" onClick={handleShow}>Fill out contact form</Button>
         <Modal show={show} onHide={handleClose} animation={false}>
           <Modal.Header closeButton>
