@@ -136,7 +136,7 @@ const App = () => {
         <h4>My Projects</h4>
 
         {/* Project 5 */}
-        <Card className="project5" style={{ width: '20rem', height: '30rem' }}>
+        <Card className="project5" style={{ width: '20rem', height: '31rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/ZNSW50l.png" />
           <Card.Body>
             <Card.Title className='title'>Outdoor Blog - Solo Project</Card.Title>
@@ -147,15 +147,15 @@ const App = () => {
               </ul>
             </Card.Text>
             <div className="project">
-              <Button href="https://lucky-sprite-9372ed.netlify.app" variant="primary">Website</Button>
-              <Button href="https://github.com/evrouge/outdoor-blog-frontend" variant="info">Frontend Code</Button><br />
-              <Button href="https://github.com/evrouge/outdoor-blog-backend" variant="info">Backend Code</Button>
+              <Button href="https://lucky-sprite-9372ed.netlify.app" variant="primary">Website</Button><br /><br />
+              <Button href="https://github.com/evrouge/outdoor-blog-frontend" variant="info">Frontend Code</Button>
+              <Button href="https://github.com/evrouge/outdoor-blog-backend" variant="info">Backend Code</Button><br />
             </div>
           </Card.Body>
         </Card>
 
         {/* Project 2 */}
-        <Card className="project2" style={{ width: '20rem', height: '28rem' }}>
+        <Card className="project2" style={{ width: '20rem', height: '32rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/qItp7Rs.png" />
           <Card.Body>
             <Card.Title className='title'>Hiker App - Solo Project</Card.Title>
@@ -166,14 +166,14 @@ const App = () => {
               </ul>
             </Card.Text>
             <div className="project">
-              <Button href="https://safe-bastion-22148.herokuapp.com/hike" variant="primary">Website</Button>
+              <Button href="https://safe-bastion-22148.herokuapp.com/hike" variant="primary">Website</Button><br /><br />
               <Button href="https://github.com/evrouge/hiker-app" variant="info">See Code</Button>
             </div>
           </Card.Body>
         </Card>
 
         {/* Project 4 */}
-        <Card className="project4" style={{ width: '20rem', height: '34rem' }}>
+        <Card className="project4" style={{ width: '20rem', height: '36rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/qMsU4IX.png" />
           <Card.Body>
             <Card.Title className='title'>Dating App - Group Project</Card.Title>
@@ -185,7 +185,7 @@ const App = () => {
               </ul>
             </Card.Text>
             <div className="project">
-              <Button href="https://singular-druid-6c25ce.netlify.app/" variant="primary">Website</Button>
+              <Button href="https://singular-druid-6c25ce.netlify.app/" variant="primary">Website</Button><br /><br />
               <Button href="https://github.com/evrouge/dating-app-frontend" variant="info">Frontend Code</Button>
               <Button href="https://github.com/evrouge/dating-app-backend" variant="info">Backend Code</Button>
             </div>
@@ -193,7 +193,7 @@ const App = () => {
         </Card>
 
         {/* Project 3 */}
-        <Card className="project3" style={{ width: '20rem', height: '35rem' }}>
+        <Card className="project3" style={{ width: '20rem', height: '36rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/GhjyM7B.png" />
           <Card.Body>
             <Card.Title className='title'>MERN Book Tracker - Group Project</Card.Title>
@@ -205,7 +205,7 @@ const App = () => {
               </ul>
             </Card.Text>
             <div className="project">
-              <Button href="https://papaya-mochi-57fe5a.netlify.app/" variant="primary">Website</Button>
+              <Button href="https://papaya-mochi-57fe5a.netlify.app/" variant="primary">Website</Button><br /><br />
               <Button href="https://github.com/evrouge/Book-tracker-frontend" variant="info">Frontend Code</Button>
               <Button href="https://github.com/evrouge/outdoor-blog-backend" variant="info">Backend Code</Button>
             </div>
@@ -213,7 +213,7 @@ const App = () => {
         </Card>
 
         {/* Project 1 */}
-        <Card className="project1" style={{ width: '20rem', height: '26rem' }}>
+        <Card className="project1" style={{ width: '20rem', height: '30rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/yEB088r.png" />
           <Card.Body>
             <Card.Title className='title'>Portfolio - My First Solo Project</Card.Title>
@@ -224,7 +224,7 @@ const App = () => {
               </ul>
             </Card.Text>
             <div className="project">
-              <Button href="https://celadon-platypus-739458.netlify.app/" variant="primary">Website</Button>
+              <Button href="https://celadon-platypus-739458.netlify.app/" variant="primary">Website</Button><br /><br />
               <Button href="https://github.com/evrouge/Portfolio" variant="info">See Code</Button>
             </div>
           </Card.Body>
