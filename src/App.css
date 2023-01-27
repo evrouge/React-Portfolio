@@ -145,6 +145,8 @@ div {
     height: 100%;
     width: 70%;
   }
+
+
 }
 
 .projectt {
@@ -157,4 +159,13 @@ div {
 
 .title {
   text-decoration: underline;
+}
+
+.bttn {
+  padding: 2px;
+}
+
+.bttn2 {
+  padding: 2px;
+  ;
 }

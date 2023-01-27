@@ -9,6 +9,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
+import { ButtonToolbar } from 'react-bootstrap';
 
 //===========================================
 const App = () => {
@@ -16,15 +17,15 @@ const App = () => {
   //========= Hooks ==========================
   const [show, setShow] = useState(false);
 
-
   //============================================
   //Modal
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  //========= UseEffect ===================
-  useEffect(() => {
 
-  }, [])
+  //========= UseEffect ===================
+  // useEffect(() => {
+
+  // }, [])
 
   return (
     <>
@@ -147,8 +148,8 @@ const App = () => {
             </Card.Text>
             <div className="project">
               <Button href="https://lucky-sprite-9372ed.netlify.app" variant="primary">Website</Button>
-              <Button href="https://github.com/evrouge/outdoor-blog-frontend" variant="primary">Frontend Code</Button><br />
-              <Button href="https://github.com/evrouge/outdoor-blog-backend" variant="primary">Backend Code</Button>
+              <Button href="https://github.com/evrouge/outdoor-blog-frontend" variant="info">Frontend Code</Button><br />
+              <Button href="https://github.com/evrouge/outdoor-blog-backend" variant="info">Backend Code</Button>
             </div>
           </Card.Body>
         </Card>
@@ -166,7 +167,7 @@ const App = () => {
             </Card.Text>
             <div className="project">
               <Button href="https://safe-bastion-22148.herokuapp.com/hike" variant="primary">Website</Button>
-              <Button href="https://github.com/evrouge/hiker-app" variant="primary">See Code</Button>
+              <Button href="https://github.com/evrouge/hiker-app" variant="info">See Code</Button>
             </div>
           </Card.Body>
         </Card>
@@ -185,14 +186,14 @@ const App = () => {
             </Card.Text>
             <div className="project">
               <Button href="https://singular-druid-6c25ce.netlify.app/" variant="primary">Website</Button>
-              <Button href="https://github.com/evrouge/dating-app-frontend" variant="primary">Frontend Code</Button>
-              <Button href="https://github.com/evrouge/dating-app-backend" variant="primary">Backend Code</Button>
+              <Button href="https://github.com/evrouge/dating-app-frontend" variant="info">Frontend Code</Button>
+              <Button href="https://github.com/evrouge/dating-app-backend" variant="info">Backend Code</Button>
             </div>
           </Card.Body>
         </Card>
 
         {/* Project 3 */}
-        <Card className="project3" style={{ width: '20rem', height: '33rem' }}>
+        <Card className="project3" style={{ width: '20rem', height: '35rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/GhjyM7B.png" />
           <Card.Body>
             <Card.Title className='title'>MERN Book Tracker - Group Project</Card.Title>
@@ -205,8 +206,8 @@ const App = () => {
             </Card.Text>
             <div className="project">
               <Button href="https://papaya-mochi-57fe5a.netlify.app/" variant="primary">Website</Button>
-              <Button href="https://github.com/evrouge/Book-tracker-frontend" variant="primary">Frontend Code</Button>
-              <Button href="https://github.com/evrouge/outdoor-blog-backend" variant="primary">Backend Code</Button>
+              <Button href="https://github.com/evrouge/Book-tracker-frontend" variant="info">Frontend Code</Button>
+              <Button href="https://github.com/evrouge/outdoor-blog-backend" variant="info">Backend Code</Button>
             </div>
           </Card.Body>
         </Card>
@@ -224,7 +225,7 @@ const App = () => {
             </Card.Text>
             <div className="project">
               <Button href="https://celadon-platypus-739458.netlify.app/" variant="primary">Website</Button>
-              <Button href="https://github.com/evrouge/Portfolio" variant="primary">See Code</Button>
+              <Button href="https://github.com/evrouge/Portfolio" variant="info">See Code</Button>
             </div>
           </Card.Body>
         </Card>
