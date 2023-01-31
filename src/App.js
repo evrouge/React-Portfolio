@@ -1,5 +1,5 @@
 //======= Imports ===============
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState } from 'react';
 import './App.css';
 // Bootstrap imports
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -9,7 +9,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Card from 'react-bootstrap/Card';
 import Modal from 'react-bootstrap/Modal';
-import { ButtonToolbar } from 'react-bootstrap';
 
 //===========================================
 const App = () => {
@@ -63,8 +62,9 @@ const App = () => {
 
       <div id="about">
         <h4>About Me</h4><br />
-        <p class="aboutme">Hi! I'm Evin, nice to meet you! I am a software engineer with experience as a yoga teacher, childcare teacher, and a special education paraeducator! My previous experiences have provided me with leadership skills and a passion for creativity that I can't wait to bring to the field! I am always up for a challenge and continually seek them out, whether I am working or not.</p>
-        <p class="aboutme">In my free time I enjoy many hobbies that challenge me. I am a runner and am currently training for a half marathon and a marathon this year. I am an alpinist, and am training to climb Mount Rainier in Washington. I am a rock climber, and enjoy spending time at the gym in the winter and climbing outside all other seasons. I am also a painter and enjoy anything that involves crafting and creativity.</p>
+        <p class="aboutme">Hi! I'm Evin, nice to meet you! I am a software engineer with experience as a yoga teacher, childcare teacher, and a special education paraeducator! My previous experiences have provided me with leadership skills and a passion for creativity that I can't wait to bring to the field!</p>
+        <p class="aboutme">I decided to become a software engineer because I am always seeking a challenge, I love to probelm solve, and I love to learn new things consistently.I started out learning Python with a book, and found online resources such as YouTube, and Mosh Hamedani's courses. After a lot of practice coding, I found out how much I love it, and wanted to increase my knowledge. I signed up for General Assembly's Software Engineer Immersive program. Here we dove into the fundamentals of computer science, and I learned how to deploy websites that I have created as well as daily use of verison control.</p>
+        <p class="aboutme">In my free time I enjoy many hobbies that challenge me. I am a runner and am currently training for a half marathon and marathon this year. I am an alpinist, and am training to climb technical glaciated peaks. I am a rock climber, and enjoy spending time at the climbing gym in the winter and climbing outside during warmer seasons. I am a new skier, and love to be a beginner at things that challenge me. I am also a painter and enjoy anything that involves crafting and creativity.</p>
         <p class="aboutme">Below is a picture of me at the top of Mount Saint Helens in Washington.</p><br />
         <img class="helens" src="https://i.imgur.com/ihTy0QQ.jpg"></img>
         <hr />
@@ -74,7 +74,7 @@ const App = () => {
 
       <div id="skills">
         <h4>Technical Skills</h4><br />
-        <p class="aboutme">These are all of the technical skills that I have learned over the last year! I started out by learning Python with a book called Python Crash Course: A Hands On, Project-Based Introduction to Programming. I also found resources online such as Mosh Hamedani's courses, and free code camp. After practicing and finding out how much I loved the programming, I decided to join General Assembly's Software Engineer Immersive - Remote program. Here we dove into the fundamentals of computer science, and I also learned how to deploy websites that I have created.</p><br />
+        <p class="aboutme">Technologies that I have learned over the last year!</p><br />
         {/* <!--javascript icon--> */}
         <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
           class="skill" />
@@ -130,6 +130,7 @@ const App = () => {
           class="skill" />
       </div>
       <br /><hr /><br />
+
       {/* Projects Section */}
 
       <div id="projects">
