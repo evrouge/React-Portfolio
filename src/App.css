@@ -160,3 +160,9 @@ div {
 .title {
   text-decoration: underline;
 }
+
+input[type=submit] {
+  color: grey;
+  background: yellow;
+
+}

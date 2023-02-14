@@ -1,5 +1,5 @@
 //======= Imports ===============
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import './App.css';
 // Bootstrap imports
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,23 +8,35 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Card from 'react-bootstrap/Card';
-import Modal from 'react-bootstrap/Modal';
-
+// import Modal from 'react-bootstrap/Modal';
+// // import email js
+// import emailjs from 'emailjs-com';
 //===========================================
 const App = () => {
 
   //========= Hooks ==========================
-  const [show, setShow] = useState(false);
+  // const [show, setShow] = useState(false);
 
   //============================================
-  //Modal
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  // modal functions
+  // const handleClose = () => setShow(false);
+  // const handleShow = () => setShow(true);
 
-  //========= UseEffect ===================
-  // useEffect(() => {
+  // use ref
+  // const form = useRef();
 
-  // }, [])
+  // send email function
+  // const sendEmail = (e) => {
+  //   e.preventDefault();
+
+  //   emailjs.sendForm('gmail', 'template_s9bjz1l', form.current, 'OAMTXultkKXP-L6cP')
+  //     .then((result) => {
+  //       // show the user a success message
+  //     }, (error) => {
+  //       // show the user an error
+  //     });
+  //   e.target.reset();
+  // };
 
   return (
     <>
@@ -50,7 +62,7 @@ const App = () => {
       </Navbar><br />
       <div>
         <h1>Evin Lerouge</h1>
-        <h2>Software Engineer and Adventurer</h2><br />
+        <h2>Software Developer and Adventurer</h2><br />
       </div>
       <div class='links'>
         <a href="https://github.com/evrouge">GitHub</a><br />
@@ -62,9 +74,8 @@ const App = () => {
 
       <div id="about">
         <h4>About Me</h4><br />
-        <p class="aboutme">Hi! I'm Evin, nice to meet you! I am a software engineer with experience as a yoga teacher, childcare teacher, and a special education paraeducator! My previous experiences have provided me with leadership skills and a passion for creativity that I can't wait to bring to the field!</p>
-        <p class="aboutme">I decided to become a software engineer because I am always seeking a challenge, I love to probelm solve, and I love to learn new things consistently. I started out learning Python with a book, and found online resources such as YouTube, and Mosh Hamedani's courses. After a lot of practice coding, I found out how much I love it, and wanted to increase my knowledge. I signed up for General Assembly's Software Engineer Immersive program. Here we dove into the fundamentals of computer science, and I learned how to deploy websites that I have created as well as daily use of verison control.</p>
-        <p class="aboutme">In my free time I enjoy many hobbies that challenge me. I am a runner and am currently training for a half marathon and marathon this year. I am an alpinist, and am training to climb technical glaciated peaks. I am a rock climber, and enjoy spending time at the climbing gym in the winter and climbing outside during warmer seasons. I am a new skier, and love to be a beginner at things that challenge me. I am also a painter and enjoy anything that involves crafting and creativity.</p>
+        <p class="aboutme">Hi! I'm Evin, nice to meet you! I am a software developer with experience as a yoga teacher, childcare teacher, and a special education paraeducator! My previous experiences have provided me with leadership skills and a passion for creativity that I can't wait to bring to the field! I am always seeking a challenge, I love to probelm solve, and learn new things consistently.</p>
+        <p class="aboutme">In my free time I enjoy many hobbies that challenge me. I am a runner and am currently training for a half marathon and marathon this year. I am an alpinist, and am training to climb technical glaciated peaks. I am a rock climber, and enjoy spending time at the climbing gym in the winter and climbing outside during warmer seasons. I am a new skier, and love a chance to be a beginner again with new things that challenge me. I am also a painter and enjoy anything that involves crafting and creativity.</p>
         <p class="aboutme">Below is a picture of me at the top of Mount Saint Helens in Washington.</p><br />
         <img class="helens" src="https://i.imgur.com/ihTy0QQ.jpg"></img>
         <hr />
@@ -144,7 +155,7 @@ const App = () => {
             <Card.Text>
               <ul>
                 <li class="projectt">Java, Spring, PostgreSQL, and React </li>
-                <li>I created this app to use for writing and posting about my outdoor activities</li>
+                <li>Full-stack app created to share photos and stories of outdoor adventures</li>
               </ul>
             </Card.Text>
             <div className="project">
@@ -156,14 +167,14 @@ const App = () => {
         </Card>
 
         {/* Project 2 */}
-        <Card className="project2" style={{ width: '20rem', height: '32rem' }}>
+        <Card className="project2" style={{ width: '20rem', height: '33rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/qItp7Rs.png" />
           <Card.Body>
             <Card.Title className='title'>Hiker App - Solo Project</Card.Title>
             <Card.Text>
               <ul>
                 <li class="projectt">Express, Encrypted JavaScript, and CSS</li>
-                <li>I had an idea to create this for my friends and I to use instead of an excel spreadsheet.</li>
+                <li>Full-stack app created for hikers who want to keep track of their hikes instead of using and excel spreadsheet.</li>
               </ul>
             </Card.Text>
             <div className="project">
@@ -174,15 +185,15 @@ const App = () => {
         </Card>
 
         {/* Project 4 */}
-        <Card className="project4" style={{ width: '20rem', height: '36rem' }}>
+        <Card className="project4" style={{ width: '20rem', height: '35rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/qMsU4IX.png" />
           <Card.Body>
             <Card.Title className='title'>Dating App - Group Project</Card.Title>
             <Card.Text>
               <ul>
                 <li class="projectt">React, Django, Python, Bootstrap for React, and PostgreSQL</li>
-                <li>We created this app to allow users to create a profile and "swipe" through profiles like Tinder</li>
-                <li>In this app we added user authentication with Bcrypt</li>
+                <li>Recreated Tinder app. This app allows users to create a profile and "swipe" left or right.</li>
+                <li>In this app we also added user authentication with Bcrypt</li>
               </ul>
             </Card.Text>
             <div className="project">
@@ -194,15 +205,14 @@ const App = () => {
         </Card>
 
         {/* Project 3 */}
-        <Card className="project3" style={{ width: '20rem', height: '36rem' }}>
+        <Card className="project3" style={{ width: '20rem', height: '34rem' }}>
           <Card.Img variant="top" src="https://i.imgur.com/GhjyM7B.png" />
           <Card.Body>
             <Card.Title className='title'>MERN Book Tracker - Group Project</Card.Title>
             <Card.Text>
               <ul>
                 <li class="projectt">React, Express, MongoDB, Node and Bootstrap for React</li>
-                <li>We created this app to keep track of the books we have read</li>
-                <li>Once a book has been read, it moves to the bottom of the page</li>
+                <li>Full-stack app created to keep track of the books you have read and want to read</li>
               </ul>
             </Card.Text>
             <div className="project">
@@ -246,9 +256,8 @@ const App = () => {
       {/* Contact Section */}
 
       <div id="contact">
-        <h4>Contact Me</h4><br />
-        <h4> * Work in progress * </h4><br />
-        <Button variant="primary" onClick={handleShow}>Fill out contact form</Button>
+        <h4>Contact Me</h4>
+        {/* <Button variant="primary" onClick={handleShow}>Fill out contact form</Button>
         <Modal show={show} onHide={handleClose} animation={false}>
           <Modal.Header closeButton>
             <Modal.Title>Leave your contact information here:</Modal.Title>
@@ -268,10 +277,16 @@ const App = () => {
               Submit
             </Button>
           </Modal.Footer>
-        </Modal>
+        </Modal> */}
+      </div><br />
+      <div class="submitbtn">
+        <form action="mailto:evinlerouge@icloud.com">
+          <input type="submit" value="Send Me an Email" />
+        </form>
       </div><br /><br />
     </>
   )
 }
+
 
 export default App;
