@@ -284,6 +284,9 @@ const App = () => {
           <input type="submit" value="Send Me an Email" />
         </form>
       </div><br /><br />
+      <div>
+        <p>SLC - Utah | Evin Lerouge | She/her | Women in Technology</p>
+      </div>
     </>
   )
 }

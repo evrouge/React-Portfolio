@@ -162,7 +162,8 @@ div {
 }
 
 input[type=submit] {
-  color: grey;
-  background: yellow;
-
+  color: black;
+  background: lightblue;
+  border-radius: 50px;
+  border: dotted black;
 }
