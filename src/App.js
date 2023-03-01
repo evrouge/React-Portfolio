@@ -1,5 +1,5 @@
 //======= Imports ===============
-import React, { useState, useRef } from 'react';
+import React from 'react';
 import './App.css';
 // Bootstrap imports
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,35 +8,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Card from 'react-bootstrap/Card';
-// import Modal from 'react-bootstrap/Modal';
-// // import email js
-// import emailjs from 'emailjs-com';
 //===========================================
 const App = () => {
-
-  //========= Hooks ==========================
-  // const [show, setShow] = useState(false);
-
-  //============================================
-  // modal functions
-  // const handleClose = () => setShow(false);
-  // const handleShow = () => setShow(true);
-
-  // use ref
-  // const form = useRef();
-
-  // send email function
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-
-  //   emailjs.sendForm('gmail', 'template_s9bjz1l', form.current, 'OAMTXultkKXP-L6cP')
-  //     .then((result) => {
-  //       // show the user a success message
-  //     }, (error) => {
-  //       // show the user an error
-  //     });
-  //   e.target.reset();
-  // };
 
   return (
     <>
@@ -248,7 +221,7 @@ const App = () => {
       <div id="resume">
         <h4>My Resume</h4><br />
         <div class="iframe">
-          <iframe src="https://drive.google.com/file/d/1AqaKrnWEzFzyJPXSkU0Iofz9DHTqLrXJ/preview" width="640" height="826" allow="autoplay"></iframe>
+          <iframe src="https://drive.google.com/file/d/1EnIi92iMyUE9WNL2miuJwgxYIYlA0XSg/preview" width="640" height="826" allow="autoplay"></iframe>
         </div>
       </div>
       <hr /><br />
