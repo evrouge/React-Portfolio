@@ -248,7 +248,7 @@ const App = () => {
       <div id="resume">
         <h4>My Resume</h4><br />
         <div class="iframe">
-          <iframe src="https://drive.google.com/file/d/1AqaKrnWEzFzyJPXSkU0Iofz9DHTqLrXJ/preview" width="640" height="830" allow="autoplay"></iframe>
+          <iframe src="https://drive.google.com/file/d/1AqaKrnWEzFzyJPXSkU0Iofz9DHTqLrXJ/preview" width="640" height="826" allow="autoplay"></iframe>
         </div>
       </div>
       <hr /><br />
@@ -257,27 +257,6 @@ const App = () => {
 
       <div id="contact">
         <h4>Contact Me</h4>
-        {/* <Button variant="primary" onClick={handleShow}>Fill out contact form</Button>
-        <Modal show={show} onHide={handleClose} animation={false}>
-          <Modal.Header closeButton>
-            <Modal.Title>Leave your contact information here:</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            <form>
-              <input type="text" placeholder='Name'></input><br /><br />
-              <input type="text" placeholder='Email'></input><br /><br />
-              <textarea cols="30" rows="5" placeholder='Message'></textarea>
-            </form>
-          </Modal.Body>
-          <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
-              Close
-            </Button>
-            <Button variant="primary" onClick={handleClose}>
-              Submit
-            </Button>
-          </Modal.Footer>
-        </Modal> */}
       </div><br />
       <div class="submitbtn">
         <form action="mailto:evinlerouge@icloud.com">
