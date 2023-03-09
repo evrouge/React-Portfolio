@@ -34,6 +34,9 @@ const App = () => {
         </Container>
       </Navbar><br />
       <div>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@300&family=Dancing+Script:wght@500&family=Poiret+One&family=Quicksand&display=swap');
+        </style>
         <h1>Evin Lerouge</h1>
         <h2>Software Developer and Adventurer</h2><br />
       </div>

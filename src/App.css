@@ -15,6 +15,12 @@ p {
   text-align: center;
 }
 
+h1 {
+  color: white;
+  font-family: 'Anton';
+  text-shadow: black 2px 2px;
+}
+
 .links,
 form {
   text-align: center;
@@ -36,6 +42,11 @@ h1 {
   font-weight: bold !important;
   text-decoration: 3px dotted black overline underline !important;
   margin-top: 1rem !important;
+}
+
+h2,
+h4 {
+  text-shadow: white 1px 1px 2px;
 }
 
 h4 {
