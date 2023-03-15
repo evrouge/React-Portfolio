@@ -121,23 +121,47 @@ div {
   text-decoration: underline;
 }
 
+/* contact button to send me an email */
+
 input[type=submit] {
   color: black;
-  background: lightblue;
+  background: lightgreen;
   border-radius: 50px;
   border: dotted black;
+}
+
+input[type=submit]:hover {
+  background-color: gold;
 }
 
 /* styling the background colors */
 
 #about {
-  background-color: lightblue !important;
+  background-color: deepskyblue !important;
 }
 
 #projects {
-  background-color: lightblue !important;
+  background-color: deepskyblue !important;
 }
 
 #contact {
-  background-color: lightblue !important;
+  background-color: deepskyblue !important;
+}
+
+
+a:link {
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: deepskyblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
 }
