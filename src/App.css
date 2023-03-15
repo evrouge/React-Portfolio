@@ -16,7 +16,7 @@ p {
 }
 
 h1 {
-  color: white;
+  color: lightblue;
   font-family: 'Anton';
   text-shadow: black 2px 2px;
 }
@@ -26,16 +26,12 @@ form {
   text-align: center;
 }
 
-a:link {
+.links {
   color: black;
 }
 
-a:hover {
-  color: red;
-}
-
 body {
-  background: #EE82EE !important;
+  background: lightyellow !important;
 }
 
 h1 {
@@ -50,7 +46,8 @@ h4 {
 }
 
 h4 {
-  text-decoration: underline overline;
+  text-decoration: none;
+  letter-spacing: .3em;
 }
 
 /* card styling */
@@ -72,10 +69,6 @@ h4 {
 
 .card img {
   border: 3px dashed black;
-}
-
-hr {
-  color: red !important;
 }
 
 #contact {
@@ -133,4 +126,18 @@ input[type=submit] {
   background: lightblue;
   border-radius: 50px;
   border: dotted black;
+}
+
+/* styling the background colors */
+
+#about {
+  background-color: lightblue !important;
+}
+
+#projects {
+  background-color: lightblue !important;
+}
+
+#contact {
+  background-color: lightblue !important;
 }
