@@ -51,9 +51,9 @@ const App = () => {
 
       <div id="about"><br />
         <h4>About Me</h4><br />
-        <p class="aboutme">Hi! I'm Evin, nice to meet you! I am a software developer with experience as a yoga teacher, childcare teacher, and a special education paraeducator! My previous experiences have provided me with leadership skills and a passion for creativity that I can't wait to bring to the field! I am always seeking a challenge, I love to probelm solve, and learn new things consistently.</p>
+        <p class="aboutme" id="aboutme1">Hi! I'm Evin, nice to meet you! I am a software developer with experience as a yoga teacher, childcare teacher, and a special education paraeducator! My previous experiences have provided me with leadership skills and a passion for creativity that I can't wait to bring to the field! I am always seeking a challenge, I love to probelm solve, and learn new things consistently.</p>
         <p class="aboutme">In my free time I enjoy many hobbies that challenge me. I am a runner and am currently training for a half marathon and marathon this year. I am an alpinist, and am training to climb technical glaciated peaks. I am a rock climber, and enjoy spending time at the climbing gym in the winter and climbing outside during warmer seasons. I am a new skier, and love a chance to be a beginner again with new things that challenge me. I am also a painter and enjoy anything that involves crafting and creativity.</p>
-        <p class="aboutme">Below is a picture of me at the top of Mount Saint Helens in Washington.</p><br />
+        <p class="aboutme" id="aboutme1">Below is a picture of me at the top of Mount Saint Helens in Washington.</p><br />
         <img class="helens" src="https://i.imgur.com/ihTy0QQ.jpg"></img><br />
       </div><br />
 

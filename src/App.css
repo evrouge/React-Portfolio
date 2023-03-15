@@ -16,7 +16,7 @@ p {
 }
 
 h1 {
-  color: lightblue;
+  color: deepskyblue;
   font-family: 'Anton';
   text-shadow: black 2px 2px;
 }
@@ -164,4 +164,9 @@ a:visited {
 a:active {
   color: yellow;
   background-color: transparent;
+}
+
+#aboutme1 {
+  background-color: lightyellow;
+  border: dashed 1px black;
 }
